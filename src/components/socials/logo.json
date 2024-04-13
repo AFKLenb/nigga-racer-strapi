@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_socials_logos",
+  "info": {
+    "displayName": "logo",
+    "icon": "chartCircle"
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

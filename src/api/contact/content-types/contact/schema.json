@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Контакты",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "urlMap": {
+      "type": "string",
+      "required": true
+    },
+    "nameForm": {
+      "type": "string",
+      "required": true
+    },
+    "labelOne": {
+      "type": "string",
+      "required": true
+    },
+    "inputOne": {
+      "type": "string",
+      "required": true
+    },
+    "labelTwo": {
+      "type": "string",
+      "required": true
+    },
+    "inputTwo": {
+      "type": "string",
+      "required": true
+    },
+    "labelThree": {
+      "type": "string",
+      "required": true
+    },
+    "inputThree": {
+      "type": "string",
+      "required": true
+    },
+    "formButton": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "collectionName": "components_socials_kontakt",
+  "info": {
+    "displayName": "Контакт",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "namePhone": {
+      "type": "string"
+    },
+    "iconPhone": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nameEmail": {
+      "type": "string",
+      "required": true
+    },
+    "nameWork": {
+      "type": "string",
+      "required": true
+    },
+    "iconEmail": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "iconWork": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

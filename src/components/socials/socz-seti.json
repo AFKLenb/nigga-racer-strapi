@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_socials_socz_seti",
+  "info": {
+    "displayName": "Соц-сеть",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "urlVk": {
+      "type": "string",
+      "required": true
+    },
+    "urlYoutube": {
+      "type": "string",
+      "required": true
+    },
+    "urlTelegram": {
+      "type": "string",
+      "required": true
+    },
+    "iconVk": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "iconYoutube": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "iconTelegram": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

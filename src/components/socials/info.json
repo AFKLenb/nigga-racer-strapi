@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_socials_infos",
+  "info": {
+    "displayName": "info",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nameAbout": {
+      "type": "string"
+    },
+    "nameProject": {
+      "type": "string"
+    },
+    "nameService": {
+      "type": "string"
+    },
+    "nameContact": {
+      "type": "string"
+    }
+  }
+}

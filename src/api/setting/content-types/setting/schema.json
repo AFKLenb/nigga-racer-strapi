@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Настройки",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Social": {
+      "displayName": "Соц-сети",
+      "type": "component",
+      "repeatable": false,
+      "component": "socials.socz-seti",
+      "required": true
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "required": true,
+      "component": "socials.kontakt"
+    },
+    "Info": {
+      "displayName": "info",
+      "type": "component",
+      "repeatable": false,
+      "component": "socials.info",
+      "required": true
+    },
+    "Logo": {
+      "displayName": "logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "socials.logo",
+      "required": true
+    }
+  }
+}
